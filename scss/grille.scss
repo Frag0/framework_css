@@ -4,25 +4,6 @@ html, body {
 	height: 100%;
 }
 
-// $lgcl:10%;
-// $nbcols: 8;
-// $nbgut: $nbcols + 1;
-// $lggut: (100-($nbcols * $lgcl))/($nbgut);
-// $i: 0;
-
-// @for $i from 1 through $nbcols {
-// 	.col_#{$i} {
-// 		width: ($i*$lgcl+($i - 1)*$lggut);
-// 		margin-left: $lggut;	
-// 	}
-// }
-
-// @for $i from 1 through $nbgut {
-// 	.offset_#{$i} {
-// 		margin-left: (($i+1)*$lggut+$i*$lgcl)	
-// 	}
-// }
-
 .fond {
 	display: flex;
 	height: 100%;
