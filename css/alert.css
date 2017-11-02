@@ -1,4 +1,4 @@
-.info, .success, .warning, .error, .validation {
+.info, .success, .warning, .error {
   border: 1px solid;
   margin: 10px 0px;
   padding: 15px 10px 15px 50px;
@@ -24,10 +24,5 @@
   color: #D8000C;
   background-color: #FFBABA;
   background-image: url("images/error.png"); }
-
-.validation {
-  color: #D63301;
-  background-color: #FFCCBA;
-  background-image: url("images/attention.png"); }
 
 /*# sourceMappingURL=alert.css.map */
