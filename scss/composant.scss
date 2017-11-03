@@ -1,3 +1,5 @@
+/*jumbotron*/
+
 @mixin thumb($largeur, $colorbutton, $colorfont) {
 	
 	width: $largeur;
@@ -35,3 +37,16 @@
 .thumb {
 	@include thumb(25%, blue, black);
 }
+
+/*header*/
+
+header {
+    display: block;
+    background-color:  grey;
+    overflow: hidden;
+}
+
+header h1 {
+    text-align: center;
+    padding: 25px;
+} 
